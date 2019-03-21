@@ -2,7 +2,7 @@
 # Your crowdin's credentials
 #
 "project_identifier" : "jceeditor"
-"api_key" : "1eaf9f03b9e49f1715d83bfe1663f7cb"
+"api_key" : ""
 "base_path" : ""
 #"base_url" : ""
 
@@ -23,7 +23,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "language/en-GB/en-GB.com_jce.ini",
+    "source" : "/language/en-GB/en-GB.com_jce.ini",
 
     #
     # where translations live
@@ -131,7 +131,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "language/en-GB/en-GB.com_jce_pro.ini",
+    "source" : "/language/en-GB/en-GB.com_jce_pro.ini",
 
     #
     # where translations live
@@ -162,7 +162,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "administrator/language/en-GB/en-GB.com_jce*.ini",
+    "source" : "/administrator/language/en-GB/en-GB.com_jce*.ini",
 
     #
     # where translations live
@@ -187,7 +187,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "administrator/language/en-GB/en-GB.pkg_jce*.ini",
+    "source" : "/administrator/language/en-GB/en-GB.pkg_jce*.ini",
 
     #
     # where translations live
@@ -212,7 +212,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "administrator/language/en-GB/en-GB.plg_fields_mediajce*.ini",
+    "source" : "/administrator/language/en-GB/en-GB.plg_fields_mediajce*.ini",
 
     #
     # where translations live
@@ -231,7 +231,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "administrator/language/en-GB/en-GB.plg_content_jce*.ini",
+    "source" : "/administrator/language/en-GB/en-GB.plg_content_jce*.ini",
 
     #
     # where translations live
@@ -250,7 +250,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "administrator/language/en-GB/en-GB.plg_editors_jce*.ini",
+    "source" : "/administrator/language/en-GB/en-GB.plg_editors_jce*.ini",
 
     #
     # where translations live
@@ -269,13 +269,13 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "administrator/language/en-GB/en-GB.plg_extension_jce*.ini",
+    "source" : "/administrator/language/en-GB/en-GB.plg_extension_jce*.ini",
 
     #
     # where translations live
     # e.g. "/resources/%two_letters_code%/%original_file_name%"
     #
-    "translation" : "administrator/language/%locale%/%original_file_name%",
+    "translation" : "/administrator/language/%locale%/%original_file_name%",
 
     #
     # File type
@@ -307,7 +307,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "administrator/language/en-GB/en-GB.plg_quickicon_jce*.ini",
+    "source" : "/administrator/language/en-GB/en-GB.plg_quickicon_jce*.ini",
 
     #
     # where translations live
@@ -326,7 +326,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source" : "administrator/language/en-GB/en-GB.plg_system_jce*.ini",
+    "source" : "/administrator/language/en-GB/en-GB.plg_system_jce*.ini",
 
     #
     # where translations live
