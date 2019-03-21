@@ -13,6 +13,11 @@ files:
     translation_replace:
       en-GB: 
     type: ini
+  - source: /language/en-GB.pkg_jce_manifest.ini
+    translation: language/%locale%%original_file_name%
+    translation_replace:
+      en-GB: 
+    type: ini
   - source: /administrator/language/en-GB.com_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
