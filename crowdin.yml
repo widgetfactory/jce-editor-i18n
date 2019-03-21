@@ -6,55 +6,55 @@ files:
   - source: /language/en-GB.com_jce.ini
     translation: language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /language/en-GB.com_jce_pro.ini
     translation: language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.com_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.pkg_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.plg_fields_mediajce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.plg_content_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.plg_editors_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.plg_extension_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.plg_installer_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.plg_quickicon_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
   - source: /administrator/language/en-GB.plg_system_jce*.ini
     translation: administrator/language/%locale%%original_file_name%
     translation_replace:
-      en-GB: ''
+      en-GB: 
     type: ini
