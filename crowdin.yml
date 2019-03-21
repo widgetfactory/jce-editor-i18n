@@ -1,3 +1,4 @@
+&ref_base_path
 translation_replace:
   en-GB: '%locale%'
 project_identifier: jceeditor
@@ -13,11 +14,8 @@ files:
   - source: /administrator/language/en-GB.com_jce*.ini
     translation: administrator/language/%original_file_name%
     type: ini
-  - source: /administrator/language/en-GB.pkg_jce.sys.ini
-    translation: /administrator/language/%original_file_name%
-    type: ini
-  - source: /administrator/language/en-GB.pkg_jce_pro.sys.ini
-    translation: /administrator/language/%original_file_name%
+  - source: /administrator/language/en-GB.pkg_jce*.ini
+    translation: administrator/language/%original_file_name%
     type: ini
   - source: /administrator/language/en-GB.plg_fields_mediajce*.ini
     translation: administrator/language/%original_file_name%
