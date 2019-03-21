@@ -3,6 +3,9 @@ project_identifier: jceeditor
 api_key: 
 base_path: 
 preserve_hierarchy: true
+translation_replace: {
+	'en-GB' : '%locale%'
+}
 files:
   - source: /language/en-GB.com_jce.ini
     translation: language/%locale%/%original_file_name%
