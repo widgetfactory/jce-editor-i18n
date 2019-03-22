@@ -119,7 +119,7 @@ files: [
     # where translations live
     # e.g. "/resources/%two_letters_code%/%original_file_name%"
     #
-    "translation" : "/administrator/language/%locale%.%original_file_name%",
+    "translation" : "administrator/language/%locale%.%original_file_name%",
 
     "translation_replace": {
       "en-GB." : ""
