@@ -1,295 +1,66 @@
-#
-# Your crowdin's credentials
-#
-"project_identifier" : "jceeditor"
-"api_key" : ""
-"base_path" : ""
-"base_url" : ""
-
-#
-# Choose file structure in crowdin
-# e.g. true or false
-#
-"preserve_hierarchy": true
-
-#
-# Files configuration
-#
-files: [
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/language/en-GB.com_jce.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-   {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/language/en-GB.com_jce_pro.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/language/en-GB.pkg_jce_manifest.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.com_jce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.pkg_jce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.plg_fields_mediajce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.plg_content_jce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.plg_editors_jce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.plg_extension_jce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.plg_installer_jce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.plg_quickicon_jce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  },
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source" : "/administrator/language/en-GB.plg_system_jce*.ini",
-
-    #
-    # where translations live
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation" : "administrator/language/%locale%.%original_file_name%",
-
-    "translation_replace": {
-      "en-GB." : ""
-    },
-
-    #
-    # File type
-    # e.g. "json"
-    #
-    "type" : "ini"
-  }
-]
+project_identifier: jceeditor
+api_key: ''
+base_path: ''
+base_url: ''
+preserve_hierarchy: 1
+files:
+  - source: /language/en-GB.com_jce.ini
+    translation: language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /language/en-GB.com_jce_pro.ini
+    translation: language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /language/en-GB.pkg_jce_manifest.ini
+    translation: language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.com_jce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.pkg_jce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.plg_fields_mediajce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.plg_content_jce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.plg_editors_jce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.plg_extension_jce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.plg_installer_jce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.plg_quickicon_jce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
+  - source: /administrator/language/en-GB.plg_system_jce*.ini
+    translation: administrator/language/%locale%.%original_file_name%
+    translation_replace:
+      en-GB.: ''
+    type: ini
